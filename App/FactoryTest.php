@@ -18,4 +18,9 @@ class FactoryTest
         $car = Factory\FactoryBenz::makeCar();
         $car->driver();
     }
+
+    public function test()
+    {
+    	return 11;
+    }
 }
